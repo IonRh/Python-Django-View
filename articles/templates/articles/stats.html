@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>文章统计</title>
+</head>
+<body>
+    <h1>文章 #{{ article_id }} 统计</h1>
+    <p>总阅读次数: {{ total_reads }}</p>
+    <p>你的阅读次数: {{ user_reads }}</p>
+    <p>访问人次: {{ unique_users }}</p>
+    <p>缓存命中率: {{ cache_hit_rate }}%</p>
+    <p>响应时间: {{ response_time_ms }}ms</p>
+</body>
+</html>
